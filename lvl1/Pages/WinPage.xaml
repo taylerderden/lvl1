@@ -1,0 +1,17 @@
+﻿<Page x:Class="lvl1.Pages.WinPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:lvl1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="WinPage">
+
+    <Grid Background="AliceBlue">
+        <Image Margin="10,0,627,270" Source="/Resources/9102309_enter_button_social media_keyboard_computer_icon.ico" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Margin="536,249,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="536,318,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Page>
